@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+  
 <!-- the head section -->
 <head>
     <title>My Guitar Shop</title>

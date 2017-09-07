@@ -1,4 +1,4 @@
-<?php
+<?php  
     $dsn = 'mysql:host=localhost;dbname=testDB';
     $username = 'mgs_user';
     $password = 'pa55word';

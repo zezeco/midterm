@@ -1,4 +1,4 @@
--- create and select the database
+-- create and select the database  
 DROP DATABASE IF EXISTS testDB;
 CREATE DATABASE testDB;
 USE testDB;  -- MySQL command

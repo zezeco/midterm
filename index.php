@@ -59,9 +59,9 @@
                         <?php foreach ($products as $product) : ?>
                             <?php $product_inst = $product['productCode']; ?>
                         <tr>
-                            <?php if ($Pcode_inst = $product_inst): ?>
+                            <?php if ($Pcode_inst == $product_inst): ?>
                                 <td><?php echo $product['productCode']; ?></td>
-                                <td><?php echo $product['name']; ?></td>
+                                <td><?php echo $product['name']; break; ?></td>
                             <?php endif; ?>
                         </tr>
                         <?php endforeach; ?>
